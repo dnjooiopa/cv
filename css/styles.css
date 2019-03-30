@@ -1,19 +1,26 @@
+body {
+    background-color: #e3e7f1;
+}
 
- body {
-     background-color: #e3e7f1;
- }
+hr {
+    border-style: dotted none none;
+    border-color: black;
+    border-width: 5px;
+    width: 5%;
+}
 
- hr {
-     border-style: dotted none none;
-     border-color: black;
-     border-width: 5px;
-     width: 5%;
- }
+h1 {
+    color: #66BFBF;
+}
 
- h1{
-     color: #66BFBF;
- }
+h3 {
+    color: #66BFBF;
+}
 
-  h3 {
-      color: #66BFBF;
-  }
+img:hover{
+    background-color: gold;
+}
+
+.profile {
+    border-radius: 100%;
+}
