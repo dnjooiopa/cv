@@ -1,26 +1,30 @@
 body {
-    background-color: #e3e7f1;
+    margin: 0px;
+    text-align: center;
+    background-color: #f4f9f4;
 }
 
-hr {
-    border-style: dotted none none;
-    border-color: black;
-    border-width: 5px;
-    width: 5%;
+h2 {
+    font-family: 'Ubuntu', sans-serif;
 }
 
-h1 {
-    color: #66BFBF;
+p{
+    font-family: 'Quattrocento', serif;
+    margin: 0px;
 }
 
-h3 {
-    color: #66BFBF;
-}
+img {}
 
-img:hover{
-    background-color: gold;
-}
-
-.profile {
+#myprofile {
     border-radius: 100%;
+    margin-top: 20px;
+    height: 200px;
+}
+
+.top-container{
+    background-color: #5c8d89;
+    height: 50px;
+    margin: 0px 0px 0px 0px;
+    
+
 }
