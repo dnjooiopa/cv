@@ -13,12 +13,10 @@ p{
     margin: 0px;
 }
 
-img {}
-
 #myprofile {
     border-radius: 100%;
     margin-top: 20px;
-    height: 200px;
+    height: 150px;
 }
 
 .top-container{
@@ -26,5 +24,8 @@ img {}
     height: 50px;
     margin: 0px 0px 0px 0px;
     
+}
 
+.skill-pics{
+    height: 200px;
 }
