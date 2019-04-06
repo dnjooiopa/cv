@@ -6,6 +6,11 @@ body {
 
 h2 {
     font-family: 'Ubuntu', sans-serif;
+    margin: 15px 0px 0px 10px;
+}
+
+h3{
+    margin: 0px;
 }
 
 p{
@@ -28,4 +33,14 @@ p{
 
 .skill-pics{
     height: 200px;
+    margin: 20px 0px 0px 15px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: auto;
+}
+
+.history-pics{
+    margin-bottom: 0px;
 }
