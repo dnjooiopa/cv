@@ -6,16 +6,38 @@ body {
 
 h2 {
     font-family: 'Ubuntu', sans-serif;
-    margin: 15px 0px 0px 10px;
+    margin: 15px 0px 5px 0px;
 }
 
 h3{
-    margin: 0px;
+     font-family: 'Ubuntu', sans-serif;
+    margin: 20px;
+}
+
+hr{
+    width: 5%;
+    margin: 50px auto 50px auto;
+    border-top: 10px dotted #47b8abb0;
 }
 
 p{
-    font-family: 'Quattrocento', serif;
+    font-family: 'Inconsolata', monospace;
     margin: 0px;
+    line-height: 2;
+}
+
+a{
+    color: #2d5a56;
+    margin: 10px 10px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #EAF6F6;
+}
+
+.profile{
+    margin: 70px;
 }
 
 #myprofile {
@@ -31,16 +53,87 @@ p{
     
 }
 
-.skill-pics{
-    height: 200px;
-    margin: 20px 0px 0px 15px;
+.top-container-describtion{
+    color: white;
+}
+
+.bottom-container{
+    background-color: #5c8d89;
+    padding: 20px 0px 20px 0px;
+}
+
+.cpp-img{
+    width: 25%;
+    margin-right: 30px;
+    float: left;
+}
+
+.guitar-img {
+    width: 25%;
+    margin-left: 30px;
+    float: right;
 }
 
 .skill-row{
-    width: 50%;
-    margin: auto;
+    width: 40%;
+    margin: 50px auto 60px auto;
+    text-align: left;
 }
 
 .history-pics{
     margin-bottom: 0px;
+}
+
+.history-row{
+    width: 50%;
+    margin: 20px auto 20px auto;
+}
+
+.my-skill{
+    margin: 100px auto 80px auto;
+}
+
+.butn{
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Ubuntu',sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.butn:hover{
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+.contact-me{
+    margin: 50px;
+}
+
+.middle-link{
+    margin: 0px;
+}
+
+.middle-link:hover{
+    color: blue;
+}
+
+.copyright{
+    color: white;
+    font-size: 0.75rem;
+    padding: 20px 0;
 }
